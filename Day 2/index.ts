@@ -29,8 +29,7 @@ function puzzleA() {
 
 function puzzleB() {
     // Find box IDs differing in only a single letter
-    // const data = splitData(inputData);
-    const data = ['pbykrmjmizwhxlqnmasfgtycdv', 'pbykrmjmizwhxlqnwasfgtycdv'];
+    const data = splitData(inputData);
 
     for (let x = 0; x < data.length; x++) {
         for (let y = x + 1; y < data.length; y++) {
