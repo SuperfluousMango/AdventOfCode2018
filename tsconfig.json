@@ -1,21 +1,21 @@
 {
-  "compileOnSave": true,
-  "compilerOptions": {
-      "module": "commonjs",
-      "target": "es6",
-      "noImplicitAny": true,
-      "allowJs": true,
-      "noEmit": true,
-      "alwaysStrict": true,
-      "lib": [
-          "es6",
-          "dom"
-      ]
-  },
-  "include": [
-      "**/*.ts"
-  ],
-  "exclude": [
-      "node_modules"
-  ]
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "noImplicitAny": true,
+        "allowJs": true,
+        "noEmit": true,
+        "alwaysStrict": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
