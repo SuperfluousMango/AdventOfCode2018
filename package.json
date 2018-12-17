@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/SuperfluousMango/AdventOfCode2018/issues"
   },
-  "homepage": "https://github.com/SuperfluousMango/AdventOfCode2018#readme"
+  "homepage": "https://github.com/SuperfluousMango/AdventOfCode2018#readme",
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.15"
+  }
 }
