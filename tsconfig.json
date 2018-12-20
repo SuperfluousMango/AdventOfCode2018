@@ -4,6 +4,7 @@
         "module": "commonjs",
         "target": "esnext",
         "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
         "allowJs": true,
         "noEmit": true,
         "alwaysStrict": true,
